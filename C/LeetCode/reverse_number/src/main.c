@@ -26,7 +26,7 @@ int reverse_number(int x) {
         x /= 10;
     }
     
-    if(n == 0)
+    if(x == 0)
     {
         return 1;
         exit(1);
