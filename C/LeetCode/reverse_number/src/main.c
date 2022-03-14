@@ -25,5 +25,11 @@ int reverse_number(int x) {
         out = (out * 10) + last_digit;     
         x /= 10;
     }
+    
+    if(n == 0)
+    {
+        return 1;
+        exit(1);
+    }
     return out;
 }
